@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "display_name": "DeepSeek Search & Thinking",
+    "short_desc": "Use DeepSeek through a persistent browser for web search and deep thinking.",
+    "desc": "Use browser_operator's persistent browser to call DeepSeek for web search, deep thinking, and multi-turn conversations."
+  },
+  "config": {
+    "astrbot_plugin_deepseek_search": {
+      "description": "DeepSeek Search & Thinking",
+      "hint": "Configure browser-mode behavior for deepseek_search and deepseek_multi_turn. Web search state is controlled by the current DeepSeek page."
+    },
+    "enable_expert": {
+      "description": "Switch to Expert for deep thinking",
+      "hint": "On: deep_think=true also switches to Expert. Off: enables deep thinking without switching Expert. Search/web-search state is unchanged."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "display_name": "DeepSeek 搜索与思考",
+    "short_desc": "通过持久化浏览器调用 DeepSeek，支持联网搜索与深度思考。",
+    "desc": "通过 browser_operator 的持久化浏览器调用 DeepSeek，支持联网搜索、深度思考和多轮对话。"
+  },
+  "config": {
+    "astrbot_plugin_deepseek_search": {
+      "description": "DeepSeek 搜索与思考",
+      "hint": "配置 deepseek_search 和 deepseek_multi_turn 的浏览器模式行为。联网搜索状态由 DeepSeek 当前页面决定。"
+    },
+    "enable_expert": {
+      "description": "深度思考时切换到 Expert",
+      "hint": "开启：deep_think=true 时自动切换到 Expert。关闭：只开启深度思考，不切换 Expert。不会修改 Search/联网搜索状态。"
+    }
+  }
+}

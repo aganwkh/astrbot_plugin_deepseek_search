@@ -1,0 +1,8 @@
+{
+  "enable_expert": {
+    "description": "深度思考时切换到 Expert",
+    "type": "bool",
+    "hint": "开启：deep_think=true 时自动切换到 Expert。关闭：只开启深度思考，不切换 Expert。不会修改 Search/联网搜索状态。",
+    "default": true
+  }
+}
