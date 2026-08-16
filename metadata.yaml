@@ -1,0 +1,4 @@
+name: astrbot_plugin_deepseek_search
+desc: DeepSeek自动搜索插件，通过浏览器操作DeepSeek进行搜索
+version: 0.1.0
+author: 虾仁 & 爱音
